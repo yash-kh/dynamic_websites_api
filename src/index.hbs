@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <meta name='viewport' content='width=device-width' />
+    <link
+      rel='stylesheet'
+      href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css'
+    />
+    <title>
+      {{subject}}
+    </title>
+    <style>
+      .right{ text-align: center; } .heading{ text-align:center; }
+      .heading-primary{ font-size: 3.5rem; text-transform: uppercase;
+      font-weight: 400; display: inline-block; background-image:
+      linear-gradient( to right, #7ed56f, #28b485 ); -webkit-background-clip:
+      text; background-clip: text; color: transparent; letter-spacing: 2px; }
+      .name{text-transform: uppercase;}
+    </style>
+  </head>
+  <body>
+    <div class='mt-2'>
+      <section class='heading mb-5'>
+        <h2 class='heading-primary'>portfolio</h2>
+      </section>
+      <section class='container'>
+        <div class='row'>
+          <div class='col-md-6 right'>
+            <img src='{{avatar}}' />
+          </div>
+          <div class='col-sm-5 mx-2 left'>
+            <h2 class='name'>{{name}}</h2>
+            <h4>{{age}}</h4>
+            <h4>{{gender}}</h4>
+            <p>{{about}}</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
